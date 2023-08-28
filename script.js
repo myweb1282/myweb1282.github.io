@@ -126,11 +126,7 @@ document.write(per1.hair)
 //for 
 
 //dom
-console.log("sahaj")
-window.location.href="https://myweb1282.github.io/myweb1282.ir/";
-if(1>0)
-{
-    window.location.replace(
-        "https://developer.mozilla.org/en-US/docs/Web/API/Location.reload",
-    );
-    }
+function getinput():
+    let getmyid = document.getElementById('#12');
+    let myvalue = getmyid.value();
+    document.write(myvalue);

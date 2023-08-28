@@ -131,5 +131,5 @@ function getinput()
     let getmyid = document.getElementById('#12');
     let myvalue = getmyid.value;
 
-    document.write(myvalue);
+    document.alert(myvalue);
 }
